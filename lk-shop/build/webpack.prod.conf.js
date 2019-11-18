@@ -63,20 +63,23 @@ const webpackConfig = merge(baseWebpackConfig, {
     // you can customize output by editing /index.html
     // see https://github.com/ampedandwired/html-webpack-plugin
     new HtmlWebpackPlugin({
-      filename: process.env.NODE_ENV === 'testing'
-        ? 'index.html'
-        : config.build.index,
+      filename:'index.html',
       template: 'index.html',
       inject: true,
-      minify: {
-        removeComments: true,
-        collapseWhitespace: true,
-        removeAttributeQuotes: true
+      // filename: process.env.NODE_ENV === 'testing'原来有的
+      //   ? 'index.html'原来有的
+      //   : config.build.index,原来有的
+      // template: 'index.html',原来有的
+      // inject: true,原来有的
+      // minify: {原来有的
+      //   removeComments: true,原来有的
+      //   collapseWhitespace: true,原来有的
+      //   removeAttributeQuotes: true 原来有的
         // more options:
         // https://github.com/kangax/html-minifier#options-quick-reference
-      },
+      // }, 原来有的
       // necessary to consistently work with multiple chunks via CommonsChunkPlugin
-      chunksSortMode: 'dependency'
+      // chunksSortMode: 'dependency'   原来有的
     }),
     // keep module.id stable when vendor modules does not change
     new webpack.HashedModuleIdsPlugin(),
