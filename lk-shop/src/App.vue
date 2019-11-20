@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-     11111
+     <router-view></router-view>
   </div>
 </template>
 
@@ -12,6 +12,9 @@ export default {
 }
 </script>
 
-<style>
-
+<style lang="less" scope>
+#app{
+  width:100%;
+  height:100%;
+}
 </style>

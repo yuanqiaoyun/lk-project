@@ -10,7 +10,7 @@ export default {
 }
 </script>
 
-<style len="less" scope>
+<style lang="less" scope>
 #cart{
   width:100%;
   height:100%;

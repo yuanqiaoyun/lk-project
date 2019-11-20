@@ -10,6 +10,6 @@ export default {
 }
 </script>
 
-<style  lan="less" scope>
+<style  lang="less" scope>
 
 </style>

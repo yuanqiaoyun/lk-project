@@ -10,7 +10,7 @@ export default {
 }
 </script>
 
-<style lan="less" scope>
+<style lang="less" scope>
 #mine{
   width:100%;
   height:100%;
